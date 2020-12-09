@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public interface PreparedStatementSetter {
     PreparedStatementSetter NOOP = new PreparedStatementSetter() {
         @Override
-        public void setParameters(PreparedStatement preparedStatement) {
+        public void setParameters(PreparedStatement ps) {
         }
     };
 
-    void setParameters(PreparedStatement preparedStatement) throws SQLException;
+    void setParameters(PreparedStatement ps) throws SQLException;
 }
