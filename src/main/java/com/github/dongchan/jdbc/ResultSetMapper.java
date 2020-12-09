@@ -8,5 +8,5 @@ import java.sql.SQLException;
  */
 public interface ResultSetMapper<T> {
 
-    T map(ResultSet resultSet) throws SQLException;
+    T map(ResultSet rs) throws SQLException;
 }
