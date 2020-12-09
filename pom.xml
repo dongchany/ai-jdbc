@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.dongchan</groupId>
-    <artifactId>aijdbc</artifactId>
+    <artifactId>ai-jdbc</artifactId>
     <version>0.1</version>
 
     <properties>
